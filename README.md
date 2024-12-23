@@ -1,6 +1,6 @@
 # 📊 Crypto Price Alert API
 
-![Sample Agent](https://github.com/krrakash/smart-agent/blob/main/Project_Running.gif)
+![Price Collector](https://github.com/krrakash/price_predictor/blob/main/price_Collector.gif)
 
 ## 🚀 Project Overview
 
@@ -11,15 +11,19 @@ This **Crypto Price Alert API** monitors cryptocurrency prices and allows users 
 - Allow users to set price alerts for specific thresholds.
 - Fetch historical hourly price data for the last 24 hours.
 - Calculate swap rates for Ethereum to Bitcoin, including fees.
+- 
+### 🛠 Setup Functionality
+
+<span style="color: red;">When the project is run for the first time, it will automatically fetch the last 24 hours of prices for both Ethereum and Polygon at 60-minute intervals. This ensures the database is populated with historical data immediately.</span>
+
+
 ### 🔄 Automated Tasks
 
 - **Fetch and Save Prices:** Automatically fetches Ethereum and Polygon prices at regular intervals.
 - **Price Increase Alerts:** Sends email notifications if a cryptocurrency's price rises significantly.
+
+
 ### 📡 API Endpoints
-## 🛠 Setup Functionality
-
-When the project is run for the first time, it will automatically fetch the last 24 hours of prices for both Ethereum and Polygon at 60-minute intervals. This ensures the database is populated with historical data immediately.
-
 
 #### 1. **Set Price Alert**
 
