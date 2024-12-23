@@ -14,8 +14,7 @@ This **Crypto Price Alert API** monitors cryptocurrency prices and allows users 
 - 
 ### 🛠 Setup Functionality
 
-<span style="color: red;">When the project is run for the first time, it will automatically fetch the last 24 hours of prices for both Ethereum and Polygon at 60-minute intervals. This ensures the database is populated with historical data immediately.</span>
-
+⚠️ **IMPORTANT:** When the project is run for the first time, it will automatically fetch the last 24 hours of prices for both Ethereum and Polygon at 60-minute intervals. This ensures the database is populated with historical data immediately.
 
 ### 🔄 Automated Tasks
 
