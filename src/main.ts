@@ -5,7 +5,9 @@ import {Logger} from "@nestjs/common";
 import * as process from "node:process";
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, {
+    logger: ['log', 'error', 'warn', 'debug', 'verbose'],
+  });
 
   const config = new DocumentBuilder()
       .setTitle('Crypto Price Alert API')
