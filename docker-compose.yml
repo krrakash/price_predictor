@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - EMAIL_HOST=smtp.gmail.com
+      - MORALIS_API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6Ijk2ZGVmNjk4LTQ1ZWQtNDMzMy1iODQ0LWY0MjRlZDBmMjRjOCIsIm9yZ0lkIjoiMTY4Njc5IiwidXNlcklkIjoiMTY4MzUwIiwidHlwZUlkIjoiYzRiOGNlZTItMjBmNS00ZjM2LTkzYmMtNTYyYmE2MjMyZmEyIiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MzQ5MDk2NTgsImV4cCI6NDg5MDY2OTY1OH0.G-bj_jIHlUHAyxy47pmhWBNmVhLXqv2R8rTGrXroEk0
